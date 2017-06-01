@@ -14,7 +14,7 @@
 	
 		<style>
 		.success {
-			font: 40px/1.5 Felix titling;
+			font: 40px/1.5 Trebuchet MS;
 			font-color: violet;
 			padding: 20px 20px 20px 20px;
 			text-align: center;
@@ -44,6 +44,7 @@
 		</ul>
 
 		<div class = "success" >
+		hello ${message}, <br />
 			Thanks for the Feedback.
 		</div>
 
