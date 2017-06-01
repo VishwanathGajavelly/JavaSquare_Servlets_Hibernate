@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlets-Hibernate</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- <servlet>
+    <description></description>
+    <display-name>ServletJDBC</display-name>
+    <servlet-name>ServletJDBC</servlet-name>
+    <servlet-class>servletsJDBC.ServletJDBC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletJDBC</servlet-name>
+    <url-pattern>/ServletJDBC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletHibernate</display-name>
+    <servlet-name>ServletHibernate</servlet-name>
+    <servlet-class>servletsHibernate.ServletHibernate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletHibernate</servlet-name>
+    <url-pattern>/ServletHibernate</url-pattern>
+  </servlet-mapping> -->
+  
+  <servlet>
+    <description></description>
+    <display-name>JavaSquare_Servlet_Hibernate</display-name>
+    <servlet-name>JavaSquare_Servlet_Hibernate</servlet-name>
+    <servlet-class>servlet_Hibernate.JavaSquare_Servlet_Hibernate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JavaSquare_Servlet_Hibernate</servlet-name>
+    <url-pattern>/JavaSquare_Servlet_Hibernate</url-pattern>
+  </servlet-mapping>
+</web-app>
