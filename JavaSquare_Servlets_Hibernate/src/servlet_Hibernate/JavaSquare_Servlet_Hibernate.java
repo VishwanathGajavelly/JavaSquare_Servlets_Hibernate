@@ -64,17 +64,8 @@ public class JavaSquare_Servlet_Hibernate extends HttpServlet {
 		
 		System.out.println("DATA SUCCESSFULLY INSERTED");
 		
-		
-		/*out = response.getWriter();
-		out.println("<html> <body>");
-		out.println("<font color = 'red' size = '15' > ");
-		out.println("<center> THANKS FOR THE FEEDBACK </center>");
-		out.println("<a href='index.html'>  Go back </a>");
-		out.println("</body> </html> " );
-		
-		*/
-		
-		request.setAttribute("message", message);
+			
+		request.setAttribute("message", name);
 	    request.getRequestDispatcher("./success.jsp").forward(request, response);
 		
 	    System.out.println("Data Entered Successfully");
